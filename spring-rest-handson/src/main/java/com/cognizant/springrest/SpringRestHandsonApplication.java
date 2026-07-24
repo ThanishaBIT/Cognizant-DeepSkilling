@@ -16,4 +16,4 @@ public class SpringRestHandsonApplication {
 
 		System.out.println(service.getCountry());
 	}
-}
+} 

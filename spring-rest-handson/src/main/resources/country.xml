@@ -3,15 +3,29 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="
-           http://www.springframework.org/schema/beans
-           https://www.springframework.org/schema/beans/spring-beans.xsd">
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="country"
-          class="com.cognizant.springrest.model.Country">
-
+    <!-- Exercise 4 -->
+    <bean id="country" class="com.cognizant.springrest.model.Country">
         <property name="code" value="IN"/>
         <property name="name" value="India"/>
+    </bean>
 
+    <!-- Exercise 5 -->
+    <bean id="IN" class="com.cognizant.springrest.model.Country">
+        <property name="code" value="IN"/>
+        <property name="name" value="India"/>
+    </bean>
+
+    <bean id="US" class="com.cognizant.springrest.model.Country">
+        <property name="code" value="US"/>
+        <property name="name" value="United States"/>
+    </bean>
+
+    <bean id="JP" class="com.cognizant.springrest.model.Country">
+        <property name="code" value="JP"/>
+        <property name="name" value="Japan"/>
     </bean>
 
 </beans>
