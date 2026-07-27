@@ -1,1 +1,0 @@
-package com.cognizant.spring_data_jpa_handson.repository;
