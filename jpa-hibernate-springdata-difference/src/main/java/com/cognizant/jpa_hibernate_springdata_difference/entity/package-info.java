@@ -1,1 +1,0 @@
-package com.cognizant.jpa_hibernate_springdata_difference.entity;
