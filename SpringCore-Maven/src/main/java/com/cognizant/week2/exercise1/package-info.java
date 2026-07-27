@@ -1,1 +1,0 @@
-package com.cognizant.week2.exercise1;
